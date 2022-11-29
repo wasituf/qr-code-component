@@ -23,69 +23,70 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 HTML
 
-```<body>
-    <div class="card">
-      <img
-        class="qr-code"
-        src="images/image-qr-code.png"
-        alt="Image of QR Code"
-      />
-      <h3 class="text heading">
-        Improve your front-end skills by building projects
-      </h3>
-      <p class="text paragraph">
-        Scan the QR code to visit Frontend Mentor and take your coding skills to
-        the next level
-      </p>
-    </div>
-  </body>
+```html
+<body>
+  <div class="card">
+    <img
+      class="qr-code"
+      src="images/image-qr-code.png"
+      alt="Image of QR Code"
+    />
+    <h3 class="text heading">
+      Improve your front-end skills by building projects
+    </h3>
+    <p class="text paragraph">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to
+      the next level
+    </p>
+  </div>
+</body>
 ```
 
 CSS
 
-```
-  body {
-    min-height: 100vh;
-    text-rendering: optimizeSpeed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: hsl(212, 45%, 89%);
-    font-family: 'Outfit', sans-serif;
-  }
+```css
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
+}
 
-  .card {
-    background-color: hsl(0, 0%, 100%);
-    padding: 16px;
-    border-radius: 20px;
-  }
+.card {
+  background-color: hsl(0, 0%, 100%);
+  padding: 16px;
+  border-radius: 20px;
+}
 
-  .qr-code {
-    width: 288px;
-    height: 288px;
-    margin-bottom: 24px;
-    border-radius: 10px;
-  }
+.qr-code {
+  width: 288px;
+  height: 288px;
+  margin-bottom: 24px;
+  border-radius: 10px;
+}
 
-  .text {
-    max-width: 250px;
-    text-align: center;
-    margin: 0 auto;
-  }
+.text {
+  max-width: 250px;
+  text-align: center;
+  margin: 0 auto;
+}
 
-  .heading {
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 16px;
-    color: hsl(218, 44%, 22%);
-  }
+.heading {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: hsl(218, 44%, 22%);
+}
 
-  .paragraph {
-    margin-bottom: 24px;
-    font-weight: 400;
-    font-size: 15px;
-    color: hsl(220, 15%, 55%);
-  }
+.paragraph {
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
 ```
 
 ### Links
